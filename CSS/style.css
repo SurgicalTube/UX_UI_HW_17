@@ -2,6 +2,10 @@
     display: inline-block;
     vertical-align: top;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .logo{
     width: 23%;
     padding: 1%;
@@ -21,7 +25,17 @@
     float: right;
 }
     
-
+.blackBox{
+    position: absolute;
+width: 1802.3px;
+height: 1350.99px;
+left: 983.5px;
+top: -192px;
+z-index: -1;
+background: #000000;
+transform: rotate(9.67deg);
+flex: auto;
+}
 
 .footer{
     background-color: #373738;
@@ -38,6 +52,11 @@
 
 .intro{
     padding: 15%;
+    
+}
+
+.sideInfo{
+    float: left;
 }
 
 .container{
@@ -45,13 +64,46 @@
 }
 
 .me{
-    height: 500px;
-    width: 275px;
+    height: 737px;
+    width: 400px;
+    z-index: 10000;
+}
+
+.frontEnd{
+    opacity:45% ;
 }
 
 .basherTech{
     padding: 100px;
     background-color: #1D1D1D;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.techInfo{
+    overflow-wrap: break-word; 
+    display:inline-block;
+}
+
+.tb{
+    display: inline-block;
+    margin-left: 85%;
+    position: absolute;
+    
+}
+.imgCont{
+    float: right;
+}
+
+
+#aboutMe{
+    justify-content: center;
+    text-align: center;
+}
+
+#aboutMe h1{
+    justify-content: center;
+    text-align: center;
 }
 
 .mySkills{
